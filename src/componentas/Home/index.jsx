@@ -1,8 +1,13 @@
 import React from 'react'
+import Schedule from '../Schedule'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      
+        <Schedule/>
+        
+    </div>
   )
 }
 

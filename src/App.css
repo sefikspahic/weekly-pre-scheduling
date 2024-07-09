@@ -1,0 +1,26 @@
+.days-header {
+    display: flex;
+    width: 100%;
+  }
+  
+  .day-column-header {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .client-column {
+    flex: 1;
+    border: 1px solid #ccc;
+    margin: 0 10px;
+    padding: 10px;
+  }
+  
+  .day-column {
+    margin-bottom: 20px;
+  }
+  
+  .day-column button {
+    margin-bottom: 10px;
+  }
+  

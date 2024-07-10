@@ -1,16 +1,30 @@
-# Getting Started with Create React App
+# Weekly Pre-Scheduling Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application, developed in React.js with Tailwind CSS and utilizing Local Storage, allows users to efficiently manage weekly scheduling tasks for clients.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Client Management:** Easily add and manage clients.
+- **Task Assignment:** Assign tasks to each client.
+- **Time Calculation:** Automatically calculates total time per day for each client.
+- **Mini Tasks:** Clients can add specific times for mini tasks per day.
+- **Persistence:** All data is saved locally using Local Storage to retain values across sessions.
 
-### `npm start`
+## Installation and Runing App
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository:    git clone https://github.com/sefikspahic/weekly-pre-scheduling.git
+2. Install the dependencies:    npm install
+3. Start the development server: npm start
+4. Open your browser and navigate to `http://localhost:3000`.
+## Usage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Adding Clients:** Click on the "Add Client" button, enter client details, and save.
+- **Managing Tasks:** For each client, add tasks under specific days of the week.
+- **Time Tracking:** View and manage total time calculations per day for each client.
+- **Mini Tasks:** Clients can add additional specific times for mini tasks each day.
 
+## Technologies Used
+
+- React.js
+- Tailwind CSS
+- Local Storage
